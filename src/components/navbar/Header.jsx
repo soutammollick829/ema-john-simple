@@ -10,10 +10,10 @@ const Header = () => {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 text-white">
       <li tabIndex={0}>
-      <li><a href="/order">Order</a></li>
-      <li><a href="/review">Order Review</a></li>
-      <li><a href="/inventory">Manage Inventory</a></li>
-      <li><a href="/login">Login</a></li>
+      <li className='hover:text-orange-300'><a href="/order">Order</a></li>
+      <li className='hover:text-orange-300'><a href="/review">Order Review</a></li>
+      <li className='hover:text-orange-300'><a href="/inventory">Manage Inventory</a></li>
+      <li className='hover:text-orange-300'><a href="/login">Login</a></li>
       </li>
     </ul>
   </div>

@@ -35,7 +35,7 @@ const Product = (props) => {
 
     <p>Rating : {ratings}</p>
   </div>
-  <button onClick={() => handelAddToCart(props.product)} className="bg-orange-300 w-full h-14 mt-4 mb-0 hover:bg-orange-400 font-bold">Add to Cart
+  <button onClick={() => handelAddToCart(props.product)} className="bg-orange-300 w-full h-14 mt-4 mb-0 hover:bg-orange-400 font-bold rounded-md">Add to Cart
       <span className='ml-5 text-orange-700'><FontAwesomeIcon icon={faShoppingCart} /></span>
 </button>
 </div>

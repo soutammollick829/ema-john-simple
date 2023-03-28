@@ -24,7 +24,6 @@ const Shop = () => {
             addedProduct.quantity = quantity;
             saveCart.push(addedProduct);
             }
-        console.log(addedProduct);
         }
         setCart(saveCart);
     },[products])
@@ -45,7 +44,7 @@ const Shop = () => {
         ></Product>)
     }  
     </div>
-            <div className="text-center mt-3 bg-orange-200">
+            <div className="text-center mt-3">
             <Cart cart={cart}></Cart>
             </div>
         </div>
